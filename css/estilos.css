@@ -52,6 +52,7 @@ main {
     font-size: 12px;
     margin-bottom: 0;
     display: none;
+    line-height: 2;
 }
 
 .formulario__input-error-activo {
@@ -119,8 +120,14 @@ main {
 
 .formulario__mensaje-exito {
     font-size: 14px;
-    color: #119200;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    background-color: #1ed12d;
+    border-radius: 4px;
     display: none;
+    font-weight: bold;
 }
 
 .formulario__mensaje-exito-activo {
